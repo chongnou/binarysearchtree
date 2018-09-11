@@ -8,17 +8,22 @@ namespace BinarySearchTreee
 {
     public class Node
     {
-
+        // Member Variables
         public Node left;
         public Node right;
         public int data;
         
+        //Constructor
+        public Node()
+        {
+
+        }
+
         public Node(int data)
         {
             this.data = data;
-            left = null;
-            right = null;
+
         }
-        
+
     }
 }
